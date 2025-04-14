@@ -20,9 +20,8 @@
 
 ```yaml
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 17 * * 2'  # кожного вівторка
+    - cron: '0 9 * * * '  # щодня о 9
 ```
 ![](photos/Screenshot_4.png)
 ### Завдання 3: Два окремих файли Workflow
