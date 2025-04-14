@@ -24,7 +24,7 @@ on:
   schedule:
     - cron: '0 17 * * 2'  # кожного вівторка
 ```
-!(photos/Screenshot_4.png)
+![](photos/Screenshot_4.png)
 ### Завдання 3: Два окремих файли Workflow
 - Створено два окремих файли у папці `.github/workflows/`:
 
@@ -61,7 +61,7 @@ jobs:
         run: |
           python ./lab.py
 ```
-!(photos/Screenshot_1.png)
+![](photos/Screenshot_1.png)
 #### Вміст `workflow2.yml`:
 ```yaml
 name: Workflow 2
@@ -88,7 +88,7 @@ jobs:
         run: |
           pytest
 ```
-!(photos/Screenshot_2.png)
+![](photos/Screenshot_2.png)
 ### Завдання 4: Код проєкту
 
 #### `lab.py`
@@ -132,8 +132,8 @@ jobs:
         run: echo "Second"
 ```
 
-!(photos/Screenshot_5.png)
-!(photos/Screenshot_6.png)
+![](photos/Screenshot_5.png)
+![](photos/Screenshot_6.png)
 ### Завдання 6: Умовне виконання
 ```yaml
 - name: Send greeting
