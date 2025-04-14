@@ -117,34 +117,15 @@ def test_subtract():
 
 ### Завдання 5: Два jobs у одному Workflow
 ```yaml
-jobs:
-  job_one:
-    name: Run first Job
-    runs-on: ubuntu-latest
-    steps:
-      - name: First
-        run: echo "First"
-  job_two:
-    name: Run Second Job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Second
-        run: echo "Second"
-```
+Перевірка роботи yaml
 
 ![](photos/Screenshot_5.png)
 ![](photos/Screenshot_6.png)
-### Завдання 6: Умовне виконання
-```yaml
-- name: Send greeting
-  run: echo "Hello ${{ github.event.inputs.name }}"
-  if: github.event.inputs.name != 'Executer'
-```
 
 ### Баджі зі статусами Workflow
 ```md
-![Workflow 1](https://github.com/username/repo/actions/workflows/workflow1.yml/badge.svg)
-![Workflow 2](https://github.com/username/repo/actions/workflows/workflow2.yml/badge.svg)
+[![Workflow 1](https://github.com/kesper02/laba3/actions/workflows/workflow-1.yml/badge.svg)](https://github.com/kesper02/laba3/actions/workflows/workflow-1.yml)
+[![Workflow 2](https://github.com/kesper02/laba3/actions/workflows/workflow-2.yml/badge.svg)](https://github.com/kesper02/laba3/actions/workflows/workflow-2.yml)
 ```
 !(photos/Screenshot_7.png)
 ### Тестування та звіт покриття
