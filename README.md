@@ -24,7 +24,7 @@ on:
   schedule:
     - cron: '0 17 * * 2'  # кожного вівторка
 ```
-![jobs result](photos/Screenshot_4.png)
+!(photos/Screenshot_4.png)
 ### Завдання 3: Два окремих файли Workflow
 - Створено два окремих файли у папці `.github/workflows/`:
 
@@ -61,7 +61,7 @@ jobs:
         run: |
           python ./lab.py
 ```
-
+!(photos/Screenshot_1.png)
 #### Вміст `workflow2.yml`:
 ```yaml
 name: Workflow 2
@@ -88,7 +88,7 @@ jobs:
         run: |
           pytest
 ```
-
+!(photos/Screenshot_2.png)
 ### Завдання 4: Код проєкту
 
 #### `lab.py`
@@ -131,8 +131,9 @@ jobs:
       - name: Second
         run: echo "Second"
 ```
-![jobs result](pictures/jobs_result.png)
 
+!(photos/Screenshot_5.png)
+!(photos/Screenshot_6.png)
 ### Завдання 6: Умовне виконання
 ```yaml
 - name: Send greeting
@@ -145,7 +146,7 @@ jobs:
 ![Workflow 1](https://github.com/username/repo/actions/workflows/workflow1.yml/badge.svg)
 ![Workflow 2](https://github.com/username/repo/actions/workflows/workflow2.yml/badge.svg)
 ```
-
+!(photos/Screenshot_7.png)
 ### Тестування та звіт покриття
 - Встановлено `pytest` та `coverage`
 - Створено крок для створення тестового звіту
