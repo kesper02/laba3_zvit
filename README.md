@@ -117,7 +117,7 @@ def test_subtract():
 ### Завдання 5: Два jobs у одному Workflow
 ```yaml
 Перевірка роботи yaml
-
+```
 ![](photos/Screenshot_5.png)
 ![](photos/Screenshot_6.png)
 
