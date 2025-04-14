@@ -122,11 +122,11 @@ def test_subtract():
 ![](photos/Screenshot_6.png)
 
 ### Баджі зі статусами Workflow
-```md
+
 [![Workflow 1](https://github.com/kesper02/laba3/actions/workflows/workflow-1.yml/badge.svg)](https://github.com/kesper02/laba3/actions/workflows/workflow-1.yml)
 [![Workflow 2](https://github.com/kesper02/laba3/actions/workflows/workflow-2.yml/badge.svg)](https://github.com/kesper02/laba3/actions/workflows/workflow-2.yml)
-```
-!(photos/Screenshot_7.png)
+
+![](photos/Screenshot_7.png)
 ### Тестування та звіт покриття
 - Встановлено `pytest` та `coverage`
 - Створено крок для створення тестового звіту
